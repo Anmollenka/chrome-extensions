@@ -1,0 +1,24 @@
+{
+    "manifest_version" :2,
+    "name": "Budget Manager",
+    "version" :"1.0",
+    "description":"A budget manager extension",
+    "icons":{
+        "128":"budget_manager.png",
+        "48":"budget_manager.png",
+        "16":"budget_manager.png"
+
+    },
+    "browser_action":
+    {
+        "default_icon":"budget_manager.png",
+        "default_popup": "popup.html"
+    },
+    "options_page":"options.html",
+    "permissions": [
+        "storage",
+        "notifications",
+        "contextMenus"
+      ]
+}
+
